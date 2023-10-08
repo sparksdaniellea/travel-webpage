@@ -43,6 +43,40 @@ header {
     padding: 200px 0;
     }
 
+footer {
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)), url(/images/boston-skyline-footer.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    max-width: 1600px;
+    padding: 100px;
+    color: white
+    
+}
+
+footer h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer p, a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+
+}
+
+.three-col-grid-first-narrow {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
+
+}
 
 .secondary-btn {
     background: rgba(255, 255, 255, 1);
@@ -58,4 +92,21 @@ header {
     background: rgba(39, 32, 68, 1);
     color: rgba(255, 255, 255, 1);
     
+}
+
+@media (max-width: 900px) {
+    header h1 {
+        font-size: 46px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+    header h3 {
+        font-size: 16px;
+    }
+ 
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
 }
