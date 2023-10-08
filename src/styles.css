@@ -1,9 +1,57 @@
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: Poppins, sans-serif;
+    margin: 0 auto;
 }
 
 h1 {
-    font-weight: 700;
     font-size: 96px;
-    line-height: 144px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 40px;
+
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 900px;
+    letter-spacing: 5px;
+    margin: 0 auto;
+
+}
+
+h1, h2, h3 {
+    color: rgba(255, 255, 255, 1);
+}
+
+header {
+    text-align: center;
+    align-content: center;
+    background-image: url(/images/boston-skyline.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    max-width: 1512px;
+    height: 900px;
+
+    }
+
+.secondary-btn {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(39, 32, 68, 1);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 16px 32px 16px 32px;
+    text-transform: uppercase;
+
+
 }
