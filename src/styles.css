@@ -377,7 +377,8 @@ footer a:hover {
     }
 
     .img-text a, .img-text a:hover {
-        font-size: 46px;
+        font-size: 42px;
+        font-weight: 600;
        
     }
     
