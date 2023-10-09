@@ -235,7 +235,12 @@ footer a:hover {
     }
     .grid {
         grid-template-columns: 1fr;
-text-align: center;    }
+        text-align: center;    
+    }
+    .section-one {
+        padding: 50px;
+        padding-top: 100px;
 
+    }
 
 }
