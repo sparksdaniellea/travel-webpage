@@ -174,13 +174,13 @@ footer a:hover {
     aspect-ratio: 1 / 1;    
     background-repeat: no-repeat; 
     background-size: cover; 
+
   
 }
 
 .img-links:hover {
     max-width: 370px;
     aspect-ratio: 1 / 1;
-    text-align: center;
     padding-top: 20px auto;
 }
 
@@ -242,40 +242,29 @@ footer a:hover {
 }
 
 .img-six:hover {
-    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/legal-harborside.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/legal-harborside.png);
     background-repeat: no-repeat; 
     background-size: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .img-text {
-    text-align: center;
     padding: 50px;
     opacity: 0;
+    max-width: 370px;
+    aspect-ratio: 1 / 1;    
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
 }
 
 .img-text:hover {
-    text-align: center;
+    background-size: cover; 
+    display: block;
     padding: 50px;
     opacity: 1;
+    max-width: 370px;
+    text-align: center;
+
 }
 
 .img-text a {
@@ -350,8 +339,19 @@ footer a:hover {
         padding: 50px;
         padding-top: 100px;
     }
-    .three-col-two-row-grid {
-        padding-top: 50px;
-        grid-template-columns: 1fr 1fr;
-    }
 }
+    @media (max-width: 1300px) {
+        .img-links {
+            max-width: 100%;  
+        }
+
+        .img-links:hover {
+            max-width: 100%;  
+        }
+
+        .three-col-two-row-grid {
+            display: grid;
+            padding-top: 50px;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
