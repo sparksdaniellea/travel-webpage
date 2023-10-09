@@ -367,7 +367,7 @@ footer a:hover {
 
 @media (max-width: 850px) {
     .img-text {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.3);
         opacity: 1;
         padding: 10px;
     }
@@ -376,17 +376,13 @@ footer a:hover {
         display: none;
     }
 
-    .img-text a {
-        font-size: 20px;
+    .img-text a, .img-text a:hover {
+        font-size: 22px;
        
     }
     
     .img-text:hover {
         background-color: rgba(0, 0, 0, 0);
         padding: 10px;
-    }
-
-    .img-text a:hover {
-        font-size: 20px;
     }
 }
