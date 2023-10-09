@@ -139,10 +139,6 @@ footer a:hover {
     margin-bottom: 0;
 }
 
-.section-three {
-    padding: 100px;
-}
-
 .two-col-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -170,16 +166,15 @@ footer a:hover {
 }
 
 .img-links {
-    max-width: 370px;
+    max-width: 100%;
     aspect-ratio: 1 / 1;    
     background-repeat: no-repeat; 
     background-size: cover; 
-
-  
+    overflow: auto;
 }
 
 .img-links:hover {
-    max-width: 370px;
+    max-width: 100%;
     aspect-ratio: 1 / 1;
     padding-top: 20px auto;
 }
@@ -250,7 +245,7 @@ footer a:hover {
 .img-text {
     padding: 50px;
     opacity: 0;
-    max-width: 370px;
+    max-width: 100%;
     aspect-ratio: 1 / 1;    
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -262,7 +257,7 @@ footer a:hover {
     display: block;
     padding: 50px;
     opacity: 1;
-    max-width: 370px;
+    max-width: 100%;
 }
 
 .img-text a {
@@ -270,8 +265,8 @@ footer a:hover {
     font-weight: 400;
     color: white;
     text-align: center;
-
 }
+
 .img-text a:hover {
     font-size: 44px;
     font-weight: 400;
@@ -341,23 +336,50 @@ footer a:hover {
         grid-template-columns: 1fr;
         text-align: center;
     }
-    .section-one {
+    
+    .three-col-two-row-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-one, .section-three {
         padding: 50px;
         padding-top: 100px;
     }
-}
-    @media (max-width: 1300px) {
-        .img-links {
-            max-width: 100%;  
-        }
 
-        .img-links:hover {
-            max-width: 100%;  
-        }
-
-        .three-col-two-row-grid {
-            display: grid;
-            padding-top: 50px;
-            grid-template-columns: 1fr 1fr;
-        }
+    .section-one img {
+        max-width: 75%;
     }
+    .img-text a, .img-text a:hover {
+        font-size: 32px;
+    }
+   .img-text p, .img-text p:hover {
+    font-size: 12px;
+}
+}
+
+@media (max-width: 850px) {
+    .img-text {
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 1;
+        padding: 10px;
+    }
+
+    .img-text p {
+        display: none;
+    }
+
+    .img-text a {
+        font-size: 20px;
+       
+    }
+    
+    .img-text:hover {
+        background-color: rgba(0, 0, 0, 0);
+        padding: 10px;
+    }
+
+    .img-text a:hover {
+        font-size: 20px;
+    }
+}
