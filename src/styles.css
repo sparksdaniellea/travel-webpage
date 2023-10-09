@@ -172,20 +172,99 @@ footer a:hover {
 .img-links {
     max-width: 370px;
     aspect-ratio: 1 / 1;    
-    background-image: url(/images/bleacher-bar.png);
     background-repeat: no-repeat; 
     background-size: cover; 
+  
 }
 
 .img-links:hover {
     max-width: 370px;
     aspect-ratio: 1 / 1;
-    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/bleacher-bar.png);
-    background-repeat: no-repeat; 
-    background-size: cover;
     text-align: center;
     padding-top: 20px auto;
 }
+
+.img-one {
+    background-image: url(/images/bleacher-bar.png);
+    aspect-ratio: 1 / 1;    
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.img-one:hover {
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/bleacher-bar.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.img-two {
+    background-image: url(/images/la-familia-giorgios.png);
+}
+
+.img-two:hover {
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/la-familia-giorgios.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.img-three {
+    background-image: url(/images/yvonnes.png);
+}
+
+.img-three:hover {
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/yvonnes.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.img-four {
+    background-image: url(/images/bagelsaurus.png);
+}
+
+.img-four:hover {
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/bagelsaurus.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.img-five {
+    background-image: url(/images/tatte.png);
+}
+
+.img-five:hover {
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/tatte.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.img-six {
+    background-image: url(/images/legal-harborside.png);
+}
+
+.img-six:hover {
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/legal-harborside.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .img-text {
     text-align: center;
@@ -200,7 +279,7 @@ footer a:hover {
 }
 
 .img-text a {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     color: white;
 }
