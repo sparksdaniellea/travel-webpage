@@ -109,7 +109,7 @@ footer a:hover {
     
 
 }
-.section-two h2 {
+.section-two h2, .section-three h2 {
     color: rgba(39, 32, 68, 1);
     font-size: 40px;
     font-weight: 700;
@@ -118,7 +118,7 @@ footer a:hover {
 
 }
 
-.section-two h3 {
+.section-two h3, .section-three h3 {
     color: rgba(39, 32, 68, 0.3);
     font-size: 16px;
     text-align: center;
@@ -140,6 +140,9 @@ footer a:hover {
     margin-bottom: 0;
 }
 
+.section-three {
+    padding: 100px;
+}
 
 .two-col-grid {
     display: grid;
@@ -158,8 +161,25 @@ footer a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+}
+
+.three-column-two-row-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.img-links {
+    max-width: 370px;
+    aspect-ratio: 1 / 1;    
+    border: solid 2px black;
 
 }
+.img-text {
+    color: black;
+}
+
 
 .primary-btn {
     background: rgba(70, 44, 178, 1);
@@ -211,4 +231,5 @@ footer a:hover {
         grid-template-columns: 1fr;
         grid-gap: 20px;
     }
+
 }
