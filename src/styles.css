@@ -369,7 +369,7 @@ footer a:hover {
     .img-text {
         background-color: rgba(0, 0, 0, 0.45);
         opacity: 1;
-        padding: 10px;
+        padding-top: 50px;
     }
 
     .img-text p {
@@ -377,7 +377,7 @@ footer a:hover {
     }
 
     .img-text a, .img-text a:hover {
-        font-size: 42px;
+        font-size: 36px;
         font-weight: 600;
        
     }
